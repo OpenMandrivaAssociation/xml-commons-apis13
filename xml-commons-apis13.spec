@@ -1,7 +1,7 @@
 Name:		xml-commons-apis13
 Version:	1.3.05
 Epoch:		1
-Release:	1
+Release:	2
 Summary:	APIs for DOM, SAX, and JAXP
 Group:		Development/Java
 License:	ASL 2.0 and W3C and Public Domain
@@ -96,7 +96,6 @@ install -pDm 644 xml-apis-ext*.pom %{buildroot}/%{_mavenpomdir}/JPP-%{name}-ext.
 
 # for better interoperability with the jpp apis packages
 ln -sf %{name}.jar %{buildroot}%{_javadir}/jaxp13.jar
-ln -sf %{name}.jar %{buildroot}%{_javadir}/jaxp.jar
 ln -sf %{name}.jar %{buildroot}%{_javadir}/xml-commons-jaxp-1.3-apis.jar
 
 # Javadocs
