@@ -1,7 +1,7 @@
 Name:		xml-commons-apis13
 Version:	1.3.05
 Epoch:		1
-Release:	3
+Release:	4
 Summary:	APIs for DOM, SAX, and JAXP
 Group:		Development/Java
 License:	ASL 2.0 and W3C and Public Domain
